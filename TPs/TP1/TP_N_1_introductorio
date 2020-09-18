@@ -8,6 +8,34 @@ III) La información en la estructura terciaria proteica podría expresarse con 
 
 IV) Rosalind Franklin contribuyó al descubrimiento de la estructura del ADN debido a las imágenes que tomó con la técnica de difracción de rayos X.
 
-V)
+V) Tomaria como parametro una lista de strings con cada aminoacido que compone la secuencia de la proteina y contaria cual es la tendencia con mayor cantidad de aminoacidos para predecir su estructura. 
 
-VI)
+Pseudocódigo:
+//List<String> tendenciaH lista de aminoacidos con los que tienen tendencia a helice.
+//List<String> tendenciaB lista de aminoacidos con los que tienen tendencia a beta plegada.
+//List<String> tendenciaL lista de aminoacidos con los que tienen tendencia a bucle.
+
+String estructuraSecundariaDeProteina (List<String> proteina)
+int H = 0;
+int B = 0;
+int L = 0
+
+{
+    forEach secuencia : secuencias
+    {
+       if (tendenciaH.contains(secuencia)) {H++}:
+       elif (tendenciaB.contains(secuencia)) {B++};
+       else {L++};
+    }
+    if (H >= B && H >= L) {return "H"}:
+    elif (B >= H && B >= L) {return "B"}:
+       else {return "L"};
+}
+
+VI) Lo que hace distinto a dos individuos es su secuencia de ADN.
+
+Pseudocódigo:
+
+    Boolean esDistintoADN (String adn1, String adn2){
+        return (ad1.equals(adn2));
+    }
