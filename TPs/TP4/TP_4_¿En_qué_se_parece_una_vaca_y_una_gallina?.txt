@@ -1,0 +1,36 @@
+TP 4 - EN QUE SE PARECE UNA VACA Y UNA GALLINA?
+
+I)
+Secuencia 	    Nombre taxonómico 	        Nombre común
+NP_061820.1 	Homo sapiens 	            Humano
+NP_001072946.1 	Gallus gallus 	            Gallina
+NP_001065289.1 	Pan troglodytes 	        Chimpancé común
+NP_001157486.1 	Equus caballus 	            Caballo
+NP_001183974.1 	Canis lupus familiaris 	    Lobo
+AEP27192.1 	    Gorilla gorilla 	            Gorila
+XP_024245566.1 	Oncorhynchus tshawytscha 	Salmón real
+NP_001086101.1 	Xenopus laevis 	            Conejo
+NP_477164.1 	Drosophila melanogaster 	Mosca de la fruta
+
+II) No es sencillo alinear secuencias a mano ya que debe compararse la identidad de cada aminoácido presente en todas las secuencias.
+
+III) Son muy parecidos, coinciden en gran parte de sus secuencias.
+
+IV) Que el ser humano y el gallo comparten gran parte de su ADN.
+
+V) Con la modificación genética que van sufriendo las especies al adaptarse en un entorno.
+
+VI) Indican la propiedad fisicoquímica del aminoácido.
+
+VII) El asterisco indica que en la cadena se encuentra presente el mismo aminoácido en la misma posición. El dos puntos indica que en la cadena se encuentran dos aminoácidos con propiedades muy similares. El guion indica que no hay un aminoácido presente en esa posición de la cadena.
+
+VIII) Se conserva una parte considerable de la secuencia, pero varía entre los distintos organismos.
+
+IX) No todos se asemejan. Existen grupos de mayor similitud y esto se ve reflejado en el árbol filogenético que permite visualizar CLUSTAL.
+
+X) Que existen millones de especies, pero que muchas especies pertenecen a la misma familia de especies.
+
+XI)Deberían estar agrupados por especies y descendencia:
+Humano, Gorila occidental, chimpancé común Salmón, Rana Caballo Gallo.
+
+XII) Los citocromos c más parecidos son del Salmón y la Rana, y del Humano y el Chimpancé. Concuerda con lo esperado y también agrega información sobre ancestros comunes.
