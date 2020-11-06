@@ -1,9 +1,37 @@
 TP 3 - EL JUEGO DE LA VIDA
 
-I)
+I)  Las procariotas son más pequeñas.
+    Las células procariotas no tienen un núcleo definido y su material genético se encuentra disperso en el citoplasma.
+    Las células eucariotas tienen membrana nuclear.
+    Las eucariotas tienen reproducción sexual y asexual, en cambio las procariotas solo asexual.
+    La división celular procariota es directa.
+    Las células eucariotas tienen citoesqueleto.
 
-II)
+II) peptido = "ATVEKGGKHKTGPNEKGKKIFVQKCSQCHTVLHGLFGRKTGQA"
+    tabla = {
+        'V':'GUA','A':'GCU',
+        'L':'CUC','P':'CCG',
+        'T':'ACG','G':'GGA',
+        'K':'AAA','S':'AGU',
+        'w':'UGG','C':'UGC',
+        'H':'CAC','N':'AAU',
+        'F':'UUU','Q':'CAA',
+        'I':'AUA','Y':'UAU',
+        'R':'AGA','D':'GAC',
+        'M':'AUG','E':'GAA'
+    }
+    print("".join(list(map(lambda x: tabla[x], peptido))))
 
-III)
+III) #Denominada caja TATA consistente en una secuencia de nucleotidos 'TATAAA'
+     #Por lo que tomamos TAT = V y AAA = Q
+     
+     peptido = "ATVEKGGKHKTGPNEKGKKIFVQKCSQCHYKTVLHGLFGRKTGQA"
+     tata = peptido.find("VQ")
+     res = ""
+     
+     #Se suma dos para avanzar dos posiciones para empezar a contar desde ahi
+     for i in range(tata + 2, len(peptido)):
+         res = res + peptido[i]
+     print(res)
 
 VI) Link juego: https://github.com/gasvel/ribosome-attack
