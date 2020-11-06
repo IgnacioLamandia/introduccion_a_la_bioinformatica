@@ -1,0 +1,21 @@
+TP 6 - INFERENCIAS EVOLUTIVAS
+
+I) 
+a) A través de NCBI se obtuvo la secuencia del ser humano, de la mosca y de la “bartmosca”:
+
+    NP_061820.1 cytochrome c [Homo sapiens]: MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE
+    AFP62086.1 Cytochrome c [Mosca domestica]: MGVPAGDVEKGKKLFVQRCAQCHTVEAGGKHKVGPNLHGLFGRKTGQAAGFAYTDANKSKGITWNEDTLFEYLENPKKYIPGTKMIFAGLKKPGDRADLIAYLKSATA
+    bartmosca: MGSGDAENGKKIFVQKCAQCHTYEVGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE
+
+Luego, se compararon las 3 secuencias a través de Clustal Omega, obteniendo como resultado que la "bartmosca" posee mas similitudes para con el Humano que para con la Mosca.
+
+b) Para el caso en el que se usaran todas las secuencias que se utilizaron en el TP anterior(Gallo, Chimpancé, Caballo, Perro, Rana, etc..), la "bartmosca" se alinearía más hacia la secuencia del Humano y mostraría como ancestro a la Mosca y al Humano.
+
+II) 
+
+III) 
+a) Los modelos de sustitución son aquellos que nos permiten calcular las distancias entre las distintas secuencias que se están comparando. Hay modelos simples y complejos, y su precisión está relacionada a su complejidad. Para elegir el modelo de sustitución óptimo para realizar una comparación hay que tener en cuenta muchas variables, como cantidad de datos a evaluar, formato de la información, etc. Dicho esto, la herramienta IQtree nos permite elegir el modelo de sustitución si sabemos cuál es el más óptimo para el Input que estamos realizando, y una opción “auto” si no lo sabemos; de esta forma delegamos esta responsabilidad a la herramienta.
+
+b) Bootstrap es un método para inferir que tan fiable es nuestro árbol. El bootstrap value nos indica que tantas veces pudimos observar la misma rama del arbol al realizar la reconstrucción filogenética.
+
+c) Antes de interpretar un árbol debiera realizarse una validación previa (como es el caso de Bootstrap o algún otro método). De esta manera, nos quedaremos con los Clados que realmente comparten ancestros.
